@@ -17,9 +17,9 @@ global:
 
 postgresql:
   enabled: true
-  host: <DB.HOST>
-  username: <DB.USERNAME>
+  host: postgres.cnoe.localtest.me:8443
+  username: backstage
 
 backstage:
   enabled: true
-  host: <BACKSTAGE.OPSMX.COM>
+  host: backstage.cnoe.localtest.me:8443
